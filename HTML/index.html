@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="'viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Página Incrível</title>
+        <!--Links para folhas de estilo ou scripts vão aqui-->
+        </head>
+        <body>
+        <header>
+            <h1>Bem-vindo à Minha Página!</h1> 
+            <p>Explore o incrível mundo que criamos para você.</p>
+        </header>
+        <main>
+            <p>Esta é uma linha.<br>Esta é outra linha.</p>
+            <p>Esta é a <mark>parte destacada</mark> do texto.</p>
+            <p>Texto da seção 1</p>
+            <hr>
+            <p>Texto da seção 2</p>
+            <p><small>Texto menor</small></p>
+            <p><big>Texto maior</big></p>
+            <blockquote>
+                <p>"A vida é o que acontece enquanto você está ocupado fazendo outros planos"</p>
+                <cite>John Lennon</cite>
+            </blockquote>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>País</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Carlos</td>
+                    <td>30</td>
+                    <td>Brasil</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Portugal</td>
+                </tr>
+                <tr>
+                    <td><a href="/perfil/carlos">Carlos</a></td>
+                    <td>30</td>
+                    <td>Brasil</td>
+                </tr>
+            </table>
+            <img src="./fundo-bonito-ceu-noturno-700-29559401.jpg" alt="fundo bonito">
+                <!-- resto da pagina -->
+            <!--Seu conteúdo principal vai aqui-->
+            <!-- Fórmulario de Login-->
+             <form action="/processar-login" method="post">
+                <!-- Campos de Entrada-->
+                 <label for="usuario">Usuário:</label>
+                 <input type="text" id="usuario" name="usuario" required>
+
+                 <label for="senha">Senha:</label>
+                 <input type="password" id="senha" name="senha" required>
+
+                 <!-- Botão de Envio-->
+                  <button type="submit">Entrar</button>
+                  <label for="comentario">Comentário</label>
+                  <textarea id ="comentario" name="comentario" rows="4" cols="50"></textarea>
+                  <button type="submit">Enviar</button>
+                  <input type="reset" value="Limpar">
+                  <input type="checkbox" id="receber-noticias" name="receber-noticias" checked>
+                  <label for ="receber-noticias">Receber Notícias</label>
+                  <input type="radio" id="masculino" name="genero" value="masculino">
+                  <label for="masculino">Masculino</label>
+                  <input type="radio" id="feminino" name="genero" value="feminino">
+                  <label for="feminino">Feminino</label>
+
+                  <label for="pais">Selecione seu país:</label>
+                  <select id="pais" name="pais">
+                    <option value="brasil">Brasil</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="eua">Estados Unidos</option>
+                  </select>
+             </form>
+             <ul>
+                <li><a href="/produtos">Produtos</a></li>
+                <li><a href="/servicos">Serviços</a></li>
+                <li><a href="/suporte">Suporte</a></li>
+                </ul>
+                <p><strong>Importante:</strong> Preencha todos os campos obrigatórios.</p>
+                <p><em>Lembre-se de manter sua senha em segredo.</em></p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+<ol>
+ <li>Passo 1 </li>
+ <li>Passo 2</li>
+ <li>Passo 3</li>
+</ol>
+
+<ul>
+<li>Animal
+    <ul>
+<li>Mamífero</li>
+<li>Reptil</li>
+<li>Ave</li>
+</ul>
+</li>
+<li>Planta
+    <ul>
+        <li>Florífera</li>
+        <li>Árvore</li>
+        <li>Erva</li>
+    </ul>
+</li>
+</ul>
+        </main>
+
+        <footer>
+        <p>&copy; 2024 Minha Página Incrível. Todos os direitos reservadoos.</p>
+    </footer>
+</body>
+</html>

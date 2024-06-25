@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Tarefas</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+    }
+    .task-item {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<h1>Lista de Tarefas</h1>
+
+<!-- Lista de Tarefas -->
+<ul id="task-list">
+    <li class="task-item">
+        <input type="checkbox" id="task1">
+        <label for="task1">Tarefa 1</label>
+    </li>
+    <li class="task-item">
+        <input type="checkbox" id="task2">
+        <label for="task2">Tarefa 2</label>
+    </li>
+</ul>
+
+<!-- Formulário para adicionar novas tarefas -->
+<form id="add-task-form">
+    <input type="text" id="new-task" placeholder="Digite uma nova tarefa">
+    <button type="submit">Adicionar</button>
+</form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('add-task-form');
+        const taskList = document.getElementById('task-list');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita o recarregamento da página
+
+            const taskInput = document.getElementById('new-task');
+            const taskName = taskInput.value.trim();
+
+            if (taskName !== '') {
+                // Cria um novo item de lista
+                const newTaskItem = document.createElement('li');
+                newTaskItem.className = 'task-item';
+
+                // Cria a caixa de seleção e rótulo
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+
+                const label = document.createElement('label');
+                label.textContent = taskName;
+
+                // Adiciona checkbox e label ao item da lista
+                newTaskItem.appendChild(checkbox);
+                newTaskItem.appendChild(label);
+
+                // Adiciona o novo item à lista de tarefas
+                taskList.appendChild(newTaskItem);
+
+                // Limpa o campo de entrada
+                taskInput.value = '';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
