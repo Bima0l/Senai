@@ -1,0 +1,51 @@
+/* Estilo geral para o body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    font-family: Arial, sans-serif; /* Fonte padrão e agradável */
+}
+
+/* Contêiner dos cartões */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Layout de grade responsivo */
+    gap: 20px; /* Espaçamento entre os cartões */
+    padding: 20px;
+    max-width: 1200px; /* Largura máxima do contêiner */
+    width: 100%; /* Ocupa toda a largura disponível */
+}
+
+/* Estilo do contêiner do perfil */
+.perfil {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto dentro do cartão */
+}
+
+/* Estilo da imagem do perfil */
+.foto {
+    width: 100px; /* Tamanho adequado da imagem */
+    height: 100px; /* Tamanho adequado da imagem */
+    border-radius: 50%; /* Bordas arredondadas (formato circular) */
+    object-fit: cover; /* Ajusta a imagem para cobrir o círculo sem distorção */
+    margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+}
+
+/* Estilo do título */
+h2 {
+    color: #2c3e50; /* Cor do texto que se destaca */
+    margin: 0; /* Remove a margem padrão do título */
+}
+
+/* Estilo do parágrafo */
+p {
+    color: #34495e; /* Cor de texto complementar ao título */
+    margin: 10px 0; /* Margem vertical para espaçar os parágrafos */
+    line-height: 1.5; /* Altura da linha para melhorar a legibilidade */
+}
