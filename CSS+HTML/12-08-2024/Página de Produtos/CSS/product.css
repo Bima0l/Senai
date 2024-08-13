@@ -1,0 +1,55 @@
+/* Define uma fonte padrão e agradável para a página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estiliza o contêiner de detalhes do produto */
+.product-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Estiliza a imagem do produto */
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estiliza o título do produto */
+.product-title {
+    color: #333;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Estiliza o parágrafo de descrição do produto */
+.product-description {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Estiliza o botão de adicionar ao carrinho */
+.add-to-cart-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #218838;
+}
