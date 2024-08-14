@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; /* Alinha itens em linha */
+    background-color: #324a97; /* Cor de fundo do menu */
+    padding: 10px; /* Espaçamento do menu */
+    border-radius: 5px; /* Bordas arredondadas do menu */
+}
+
+.menu > li {
+    position: relative; /* Necessário para o posicionamento do dropdown */
+    margin: 0 10px; /* Margem horizontal entre os itens do menu */
+}
+
+.menu > li > a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #ffffff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.menu > li > a:hover {
+    background-color: #02356d; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo do dropdown */
+.dropdown {
+    display: none; /* Oculta o dropdown por padrão */
+    position: absolute; /* Para posicionar o dropdown em relação ao item pai */
+    top: 100%; /* Posiciona o dropdown abaixo do item do menu */
+    left: 0; /* Alinha o dropdown à esquerda */
+    background-color: #324a97; /* Cor de fundo do dropdown */
+    padding: 10px 0; /* Espaçamento vertical do dropdown */
+    border-radius: 5px; /* Bordas arredondadas */
+    z-index: 1; /* Garante que o dropdown fique acima de outros elementos */
+}
+
+/* Mostra o dropdown ao passar o mouse sobre o item pai */
+.menu > li:hover .dropdown {
+    display: block; /* Mostra o dropdown */
+}
+
+/* Estilo dos itens do dropdown */
+.dropdown li {
+    margin: 0; /* Remove margens dos itens do dropdown */
+}
+
+.dropdown li a {
+    padding: 10px 20px; /* Espaçamento interno para os links do dropdown */
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: block; /* Comportamento de bloco */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+/* Efeito de hover para os links do dropdown */
+.dropdown li a:hover {
+    background-color: #02356d; /* Cor ao passar o mouse nos links do dropdown */
+}
