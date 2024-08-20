@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #6b00a8;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Estilização da galeria */
+.gallery {
+    display: flex; /* Flexbox para layout da galeria */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens */
+    margin: 20px auto; /* Margem automática para centralizar */
+    width: 80%; /* Largura da galeria */
+}
+
+/* Estilização dos itens da galeria */
+.gallery-item {
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item img {
+    max-width: 100%; /* Imagem responsiva */
+    height: auto; /* Mantém proporções */
+}
+
+.gallery-item h2 {
+    color: #8c00ff; /* título */
+}
+
+/* Efeito ao passar o mouse sobre os itens da galeria */
+.gallery-item:hover {
+    transform: scale(1.05); /* Aumenta levemente o item */
+}

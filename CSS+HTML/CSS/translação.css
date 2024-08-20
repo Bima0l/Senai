@@ -1,0 +1,7 @@
+nav{
+    transition: transform 0.3 ease-in-out;
+}
+
+nav:hover{
+    transform: translateY(-10px);
+}

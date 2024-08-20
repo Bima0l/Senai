@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; /* Alinha itens em linha */
+    background-color: #324a97; 
+    padding: 10px; /* Espaçamento do menu */
+    border-radius: 5px; 
+}
+
+.menu > li {
+    position: relative; /* Necessário para o posicionamento do dropdown */
+    margin: 0 10px; /* Margem horizontal entre os itens do menu */
+}
+
+.menu > li > a {
+   
+    color: #ffffff; 
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; 
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.menu > li > a:hover {
+    background-color: #02356d; 
+}
+
+
+
+.dropdown li a {
+    padding: 10px 20px; /* Espaçamento interno para os links do dropdown */
+    color: #ffffff; /* Cor do texto */
+    display: block; /* Comportamento de bloco */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+/* Efeito de hover para os links do dropdown */
+.dropdown li a:hover {
+    background-color: #02356d; /* Cor ao passar o mouse nos links do dropdown */
+}

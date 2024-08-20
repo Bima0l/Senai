@@ -1,0 +1,54 @@
+
+/* Estiliza o contêiner de detalhes do produto */
+.product-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+  
+}
+
+/* Estiliza a imagem do produto */
+.product-image {
+    width: 100%; /* Largura adaptável ao contêiner */
+    max-width: 300px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas arredondadas */
+    display: block; /* Remove o espaço embaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+
+/* Estiliza o título do produto */
+.product-title {
+    color: #ff0077;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+/* Estiliza o parágrafo de descrição do produto */
+.product-description {
+    color: #000000;
+   
+}
+
+/* Estiliza o botão de adicionar ao carrinho */
+
+.add-to-cart {
+    background-color: #ff0077; /* Fundo colorido (verde) */
+    color: white; /* Cor do texto que se destaca */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 5px 5px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+  
+   
+}
+
+.add-to-cart:hover {
+    background-color: #fd75b5; /* Cor ao passar o mouse (verde escuro) */
+}
+
+

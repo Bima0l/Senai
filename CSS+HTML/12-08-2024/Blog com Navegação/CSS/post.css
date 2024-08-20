@@ -1,0 +1,41 @@
+body{
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 20px auto; /* Centraliza o contêiner com margem em cima e embaixo */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-size: 50px;
+    color: chocolate;
+    margin: 0 0 10px; /* Margem abaixo do título */
+}
+
+p{
+    color: brown;
+    line-height: normal;
+}
+
+.navigation a {
+    color:chocolate; 
+    text-decoration: none; /* Remove o sublinhado do link */
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+.navigation a:hover {
+    color: rgb(105, 53, 16); /* Cor do link ao passar o mouse  */
+    text-decoration: underline; 
+}
+
+.back-home a {
+    color: chocolate; /* Cor do link (verde) */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.back-home a:hover {
+    color: rgb(105, 53, 16); /* Cor do link ao passar o mouse  */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

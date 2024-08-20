@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.service-details {
+    background-color: #ffffff; /* Fundo branco para o contêiner do serviço */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 600px; /* Largura máxima do contêiner */
+    margin: 20px auto; /* Centraliza o contêiner */
+}
+
+.service-details h2 {
+    color: #324a97; /* Cor do título */
+}
+
+.service-details p {
+    color: #666; /* Cor do texto do parágrafo */
+}
+
+.back-link {
+    display: inline-block; /* Comportamento de bloco */
+    margin-top: 20px; /* Margem acima do link */
+    text-decoration: none; /* Remove sublinhado */
+    color: #ffffff; /* Cor do texto */
+    background-color: #324a97; /* Cor de fundo */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.back-link:hover {
+    background-color: #02356d; /* Cor ao passar o mouse no link */
+}

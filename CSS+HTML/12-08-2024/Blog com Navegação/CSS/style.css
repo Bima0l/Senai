@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color: chocolate;
+    margin: 0 0 10px;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(131, 67, 21);
+    margin: 0 0 10px;
+
+}
+
+p{
+    color: brown;
+    line-height:normal;
+}
+
+a{
+    color: chocolate;
+    text-decoration: none;
+    font-weight: bold; /* Deixa o texto do link em negrito */
+}
+a:hover {
+    color: rgb(105, 53, 16);
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+ 
+   
+}
