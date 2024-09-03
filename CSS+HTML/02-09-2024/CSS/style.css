@@ -1,0 +1,141 @@
+/* Reset básico para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Raleway', sans-serif; /* Atualizado para usar a fonte Raleway */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    color: #9B59B6; /* Cor do texto */
+    background-color: #fff; /* Cor de fundo da página */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #DAB8FF; /* Cor lilás para o cabeçalho */
+    color: #fff; /* Cor do texto clara */
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+.header-container {
+    display: flex; /* Alinhamento horizontal dos itens */
+    align-items: center; /* Alinhamento vertical */
+    justify-content: space-between; /* Espaça logo e menu */
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente o conteúdo dentro da largura máxima */
+    padding: 0 20px; /* Espaçamento interno lateral */
+}
+
+.logo {
+    max-height: 150px; /* Altura máxima do logo */
+    margin-right: auto; /* Garante que a logo fique mais à esquerda no contêiner flexível */ 
+}
+
+nav {
+    display: flex; /* Exibe o menu de navegação horizontalmente */
+}
+
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Exibe itens horizontalmente */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espaçamento entre itens do menu */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 20px; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição suave para cor do texto */
+}
+
+nav ul li a:hover {
+    color: #7802c7; /* Cor do texto ao passar o mouse */
+}
+
+/* Seção hero */
+.hero {
+    background: #fff; /* Cor de fundo */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.eu {
+    width: 500px; /* Largura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+h1 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    color: #9B59B6; /* Cor roxa para o título */
+}
+
+p {
+    margin-bottom: 10px; /* Espaçamento abaixo dos parágrafos */
+    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
+    color: #000000; /* Cor do texto dos parágrafos */
+}
+
+.button {
+    display: inline-block; /* Exibe o botão inline */
+    background: #7802c7; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    margin: 10px; /* Espaçamento ao redor do botão */
+    text-decoration: none; /* Remove sublinhado do texto do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s; /* Transição suave para cor de fundo */
+}
+
+.button:hover {
+    background: #c279ec; /* Cor de fundo ao passar o mouse */
+}
+
+/* Seção de contato */
+.contact {
+    background: #fff; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.contact h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 2em; /* Tamanho da fonte do título */
+}
+
+.contact ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Exibe itens horizontalmente */
+    justify-content: center; /* Centraliza itens horizontalmente */
+    flex-wrap: wrap; /* Permite quebra de linha */
+}
+
+.contact ul li {
+    margin: 10px; /* Espaçamento entre ícones */
+}
+
+.contact .icon {
+    width: 40px; /* Largura dos ícones */
+}
+
+/* Rodapé */
+footer {
+    background: #DAB8FF; /* Cor lilás para o rodapé */
+    color: #ffffff; /* Cor do texto clara */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+footer p {
+    margin: 0; /* Remove margem ao redor do parágrafo */
+    font-size: 1em; /* Tamanho da fonte do texto do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+}

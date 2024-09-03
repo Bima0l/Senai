@@ -1,0 +1,185 @@
+/* Reset básico para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #9B59B6;
+    background-color: #fff;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #DAB8FF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    max-height: 150px;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #7802c7;
+}
+
+/* Seção hero */
+.hero {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.eu {
+    width: 500px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #9B59B6;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.button {
+    display: inline-block;
+    background: #7802c7;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #c279ec;
+}
+
+/* Seção de contato */
+.contact {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #9B59B6;
+    outline: none;
+}
+/* Seção de contato */
+.contact {
+    background: #fff; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+.contact h2 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 2em; /* Tamanho da fonte do título */
+}
+
+.contact ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Exibe itens horizontalmente */
+    justify-content: center; /* Centraliza itens horizontalmente */
+    flex-wrap: wrap; /* Permite quebra de linha */
+}
+
+.contact ul li {
+    margin: 10px; /* Espaçamento entre ícones */
+}
+
+.contact .icon {
+    width: 40px; /* Largura dos ícones */
+}
+
+
+
+/* Rodapé */
+footer {
+    background: #DAB8FF; /* Cor lilás para o rodapé */
+    color: #ffffff; /* Cor do texto clara */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+footer p {
+    margin: 0; /* Remove margem ao redor do parágrafo */
+    font-size: 1em; /* Tamanho da fonte do texto do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+}

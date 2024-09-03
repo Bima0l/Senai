@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Bianca</title>
+    <link rel="stylesheet" href="../CSS/portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="../images/Bianca Martins Oliveira.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="./portfolio.html">Projetos</a></li>
+                    <li><a href="./about.html">Sobre Mim</a></li>
+                    <li><a href="./contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="projects">
+        <h1>Meus Projetos</h1>
+        <div class="project-gallery">
+            <!-- Projeto de Reconhecimento Facial -->
+            <div class="project-item">
+                <a href="#project1" class="project-link">
+                    <img src="../ICONES/facial-recognition-svgrepo-com.svg" alt="Reconhecimento Facial" class="project-thumbnail">
+                    <div class="overlay">
+                        <div class="overlay-text">Reconhecimento Facial</div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Projeto de Viagem ao Havai com Tema Stitch -->
+            <div class="project-item">
+                <a href="#project2" class="project-link">
+                    <img src="../ICONES/brand-disney-svgrepo-com.svg" alt="Viagem ao Havai" class="project-thumbnail">
+                    <div class="overlay">
+                        <div class="overlay-text">Viagem ao Havai com o Stitch</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para descrição detalhada do projeto de Reconhecimento Facial -->
+    <div id="project1" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Reconhecimento Facial para Controle de Acesso</h2>
+            <img src="../images/sistema-de-reconhecimento-facial-.jpg" alt="Detalhes do Projeto de Reconhecimento Facial" class="project-detail-image">
+            <p>
+                O <strong>Projeto de Reconhecimento Facial</strong> é um sistema avançado desenvolvido para controle de acesso a portas e catracas com base na identificação facial. Este projeto utiliza tecnologia de reconhecimento facial para proporcionar uma experiência de acesso segura e eficiente.
+            </p>
+            <p>
+                <strong>Funcionalidades:</strong>
+                <ul>
+                    <li>Reconhecimento preciso e rápido de indivíduos com alta taxa de acerto.</li>
+                    <li>Integração com sistemas de controle de acesso existentes, como portas e catracas.</li>
+                    <li>Interface de administração para cadastro e gerenciamento de usuários.</li>
+                    <li>Registro e monitoramento de acessos, com geração de relatórios.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Tecnologias Utilizadas:</strong>
+                <ul>
+                    <li><strong>OpenCV:</strong> Biblioteca para processamento de imagens e reconhecimento facial.</li>
+                    <li><strong>TensorFlow:</strong> Framework de aprendizado de máquina para treinamento do modelo de reconhecimento facial.</li>
+                    <li><strong>Python:</strong> Linguagem de programação principal utilizada para desenvolver a lógica do sistema.</li>
+                    <li><strong>Raspberry Pi:</strong> Plataforma utilizada para integração com o hardware de controle de acesso.</li>
+                </ul>
+            </p>
+            <p>
+                Este sistema não só melhora a segurança ao eliminar a necessidade de cartões ou códigos de acesso, mas também oferece uma maneira conveniente e moderna de controlar o acesso a diferentes áreas.
+            </p>
+            <a href="https://youtu.be/X9jtTFxfceg?feature=shared" target="_blank" class="button">Ver no Youtube</a>
+        </div>
+    </div>
+
+    <!-- Modal para descrição detalhada do projeto de Viagem ao Havai -->
+    <div id="project2" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Viagem ao Havai com Tema Stitch</h2>
+            <img src="../images/sitesthict.jpg" alt="Detalhes do Projeto de Viagem ao Havai" class="project-detail-image">
+            <p>
+                O <strong>Projeto de Viagem ao Havai com Tema Stitch</strong> é uma experiência imersiva que combina a magia da Stitch com a beleza tropical do Havai. O projeto inclui itinerários temáticos, atividades inspiradas nos personagens da Stitch e muito mais.
+            </p>
+            <p>
+                <strong>Funcionalidades:</strong>
+                <ul>
+                    <li>Pacotes de viagem personalizados com tema Stitch.</li>
+                    <li>Atividades exclusivas e interativas baseadas nos personagens Stitch.</li>
+                    <li>Guias e suporte durante toda a viagem.</li>
+                    <li>Descontos especiais e ofertas para grupos.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Tecnologias Utilizadas:</strong>
+                <ul>
+                    <li><strong>HTML/CSS:</strong> Para a criação de páginas web e estilização do conteúdo.</li>
+                    <li><strong>JavaScript:</strong> Para funcionalidades interativas no site da viagem.</li>
+                    <li><strong>APIs de Viagem:</strong> Integração com serviços de reservas e informações sobre o destino.</li>
+                </ul>
+            </p>
+            <p>
+                Este projeto oferece uma experiência mágica e inesquecível ao combinar a diversão dos parques da Stitch com a beleza e cultura do Havai.
+            </p>
+            <a href="https://github.com/Bima0l/Senai/tree/main/CSS%2BHTML/Projeto" target="_blank" class="button">Ver no GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bianca. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
